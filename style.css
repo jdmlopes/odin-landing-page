@@ -41,9 +41,28 @@ body{
 
 .banner{
     width: 70%;
+    display: flex;
+    justify-content: space-between;
 }
 
 img{
     width: 200px;
     height: auto;
+}
+
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.hero-title{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.hero-text{
+    font-size: 18px;
+    color: #e5e7eb;
 }
