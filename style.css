@@ -46,7 +46,7 @@ a{
 
 .links{
     display: flex;
-    gap: 12px;
+    gap: 16px;
 }
 
 .links a{
@@ -184,3 +184,13 @@ a{
     border: 2px solid #f9faf8;
 }
 
+/* FOOTER SECTION */
+
+.footer{
+    margin: 0;
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+    padding: 20px 0px 30px;
+    
+}
