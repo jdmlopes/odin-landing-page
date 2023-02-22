@@ -18,7 +18,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0;
+    margin: 0px 0px 75px;
     padding-bottom: 100px;
 }
 
@@ -114,6 +114,7 @@ a{
     display: flex;
     width: 70vw;
     justify-content: space-between;
+    margin-bottom: 100px;
 }
 
 .grid-item{
@@ -128,5 +129,32 @@ a{
     border-radius: 12px;
     object-fit: cover;
     height: 15vw;
+
+}
+
+/* REVIEWS SECTION */
+
+.reviews{
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 100px 0px;
+}
+
+.reviews *{
+    width: 70%;
+    color: #1f2937;
+}
+
+.review{
+    font-size: 36px;
+    font-style: italic;
+}
+
+.reviwer{
+    font-weight: bold;
+    text-align: end;
+    font-size: 30px;
 
 }
